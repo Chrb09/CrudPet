@@ -46,6 +46,7 @@ public class FormLogin extends JFrame{
         lblSenha.setBounds(55,140,60,25);
         txtSenha.setBounds(125,140,190,28);
         logar.setBounds(150,200,100,28);
+        getRootPane().setDefaultButton(logar);
         
         tela.add(titulo);
         tela.add(lblUsuario);

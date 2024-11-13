@@ -31,7 +31,7 @@ public class Formulario extends JFrame{
         con_pet = new Conexao();
         con_pet.conecta();
         
-        setTitle("Conexão Java com MySql");
+        setTitle("CrudPet");
         Container tela = getContentPane();
         tela.setLayout(null);
         ImageIcon icone = new ImageIcon("sql.png");
@@ -88,17 +88,17 @@ public class Formulario extends JFrame{
         txtNome.setBounds(225,50,200,25);
         txtRaca.setBounds(225,80,200,25);
         txtData.setBounds(225,110,200,25);
-        txtSexo.setBounds(225,170,100,25);
-        txtCor.setBounds(225,200,100,25);
+        txtSexo.setBounds(225,170,200,25);
+        txtCor.setBounds(225,200,200,25);
         txtEspecie.setBounds(225,140,200,25);
         txtPesquisa.setBounds(225,480,200,25);
         tablePet.setBounds(50, 290, 550, 170);
         scrollPet.setBounds(50,290,550, 170);
         
-        primeiro.setBounds(75, 190, 125, 28);
-        anterior.setBounds(200, 190, 125, 28);
-        proximo.setBounds(325, 190, 125, 28);
-        ultimo.setBounds(450, 190, 125, 28);
+        primeiro.setBounds(75, 250, 125, 28);
+        anterior.setBounds(200, 250, 125, 28);
+        proximo.setBounds(325, 250, 125, 28);
+        ultimo.setBounds(450, 250, 125, 28);
         limpar.setBounds(450,20,125,28);
         gravar.setBounds(450,50,125,28);
         alterar.setBounds(450,80,125,28);
